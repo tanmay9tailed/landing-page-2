@@ -228,5 +228,20 @@ footer h1{
     .image h2{
         margin-top: 0;
     }
+    .text-con h1{
+        font-size: 24px;
+        animation: step 4s steps(30) infinite;
+        animation-delay: 1.5s;
+    }
+    @keyframes step{
+        0%{
+            width:0%;
+            border-right:2px solid  rgb(180, 255, 67) ;
+        }
+        100%{
+            width: 380px;
+            border-right:2px solid  rgb(180, 255, 67) ;
+        }
+    }
 }
 
